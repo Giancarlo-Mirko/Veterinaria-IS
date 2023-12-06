@@ -76,12 +76,13 @@
         <div class="titulo text-center mb-4 mt-4">
           <h1 class="contactanos"><b>CONTÁCTANOS</b></h1>
         </div>
-        <form name="formulario" netlify>
+        <form name="contact" netlify>
           <div class="row">
             <div class="col-12 col-sm-0 col-md-2"></div>
             <div class="col-12 col-sm-6 col-md-4 mb-4">
               <input
                 type="text"
+                name="nombre"
                 id="disabledTextInput"
                 class="form-control"
                 placeholder="Nombre completo*"
@@ -90,6 +91,7 @@
             <div class="col-12 col-sm-6 col-md-4 mb-4">
               <input
                 type="text"
+                name="numero"
                 id="disabledTextInput"
                 class="form-control"
                 placeholder="Número de celular*"
@@ -101,6 +103,7 @@
             <div class="col-12 col-sm-6 col-md-4 mb-4">
               <input
                 type="text"
+                name="correo"
                 id="disabledTextInput"
                 class="form-control"
                 placeholder="Correo electronico*"
@@ -110,6 +113,7 @@
             <div class="col-12 col-sm-6 col-md-4 mb-4">
               <input
                 type="text"
+                name="asunto"
                 id="disabledTextInput"
                 class="form-control"
                 placeholder="Asunto*"
@@ -130,7 +134,7 @@
           </div>
 
           <div class="text-center">
-            <a href="#" class="btn btn-primary mt-4 mb-3 enviar"
+            <a href="#" type="submit" class="btn btn-primary mt-4 mb-3 enviar"
               ><b> Enviar</b>
               <img
                 src="./imagenes/huella.png"
